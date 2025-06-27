@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'Jember Sketch';
+    src: url("fonts/Jember Sketch.ttf");
+}
+
+@font-face {
+    font-family: 'QSWITCHA';
+    src: url("fonts/QSWITCHA.TTF");
+}
+
+@font-face {
+    font-family: 'Q-bo';
+    src: url("fonts/Q-bo.ttf");
+}
+
+@font-face {
+    font-family: 'Pacifico-Regular';
+    src: url("fonts/Pacifico-Regular.ttf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'QSWITCHA';
+    color: #000;
+    font-weight: 900;
+    text-decoration-line: underline;
+    font-size: 55px;
+
+}
+
+.parrafo1 {
+    color: #000;
+    text-align: center;
+
+}
+
+.marketing1 {
+    width: 350px;
+    height: auto;
+
+    position: relative;
+    top: 50px;
+    left: 50px;
+
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.marketing3 {
+    width: 350px;
+    height: auto;
+
+    position: relative;
+    top: 50px;
+    left: 550px;
+
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.image {
+    width: 350px;
+    height: auto;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+
+.padre {
+    display: flex;
+    align-items: center;
+    /* Centra verticalmente el texto */
+    gap: 20px;
+    padding: 20px;
+}
+
+.padre>div {
+    flex: 1;
+    /* Toma todo el espacio disponible entre las imágenes */
+    text-align: center;
+}
+
